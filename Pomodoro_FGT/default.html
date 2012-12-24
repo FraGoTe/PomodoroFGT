@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> :: Pomodoro :: </title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Pomodoro_FGT references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/css/Styles.css" rel="stylesheet" />
+    <script src="/js/eventos.js"></script>
+    <script src="/js/default.js"></script>
+</head>
+<body>
+            <div id="leftBand"></div>
+            <div id="pomodoroTimes">
+                <!-- TO DO -->
+                <label>To Do</label> 
+                    <div class="HWblock" >
+        
+                    </div>
+                <br />
+                 <!-- DOING -->
+                <label>Doing</label>
+                    <div class="HWblock">
+        
+                    </div>
+                <br />
+                <!-- DONE -->
+                 <label>Done</label>
+                    <div class="HWblock">
+       
+                    </div>
+            </div>
+            <div id="rightBand">
+                <button class="action"  id="addTask">Add</button> <br />
+                <!-- Flyout Add Task -->
+                <!-- Confirmation Flyout. -->
+                <div id="confirmFlyout" data-win-control="WinJS.UI.Flyout" aria-label="{Confirm purchase flyout}">
+                    <div>Your account will be charged $252.</div>
+                    <button id="confirmButton">Complete Order</button>
+                </div>
+                <button id="editTask">Edit</button> <br />
+                <button id="deleteTask">Delete</button> <br />
+            </div>    
+</body>
+</html>

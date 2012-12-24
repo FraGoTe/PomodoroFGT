@@ -1,0 +1,24 @@
+﻿.HWblock {
+    height: 195px;
+    overflow-y: auto;
+    width: 600px;
+    border-bottom: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+#pomodoroTimes {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+#rightBand {
+   width: 220px;
+   float: left;
+   margin-top: 5px;
+   line-height: 45px;
+}
+#leftBand {
+    width: 220px;     
+     float: left;
+}
